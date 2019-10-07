@@ -3,4 +3,5 @@
 
 ### CONTROLS
 *Arrow Keys* - Move the gunner ship about the wormhole
+
 *Space Bar* - Fire a missile blast
