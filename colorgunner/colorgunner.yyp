@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2e3e55bd-3ddd-43ef-aa1a-e0e36596cfd5",
+            "Value": {
+                "id": "250faadd-b7f2-4634-a340-297ea2312549",
+                "resourcePath": "scripts\/round_angle\/round_angle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "31e0c15e-15ef-44a8-9c14-707e9f1ed6f5",
             "Value": {
                 "id": "8e486a5a-a9d8-48e3-bdea-0161cb66d0c8",
@@ -289,7 +297,8 @@
     ],
     "script_order": [
         "0d7c0da9-db74-44e7-b364-88e9457c5a99",
-        "df3271fa-c742-47fc-84bf-771f09f7aa0e"
+        "df3271fa-c742-47fc-84bf-771f09f7aa0e",
+        "2e3e55bd-3ddd-43ef-aa1a-e0e36596cfd5"
     ],
     "tutorial": ""
 }
