@@ -5,6 +5,8 @@ visible = 0;
 
 depth = -1;
 
+image_index = 0;
+
 // Speed at which to travel, calculated by obj_gunner code
 blast_spd = 0;
 

@@ -3,7 +3,8 @@
 // Every instance should be below the spaceship
 depth = -1;
 
-image_index = 1;
+image_index = 0;
+image_speed = 0;
 
 // Randomize every instance seed
 randomize();

@@ -16,6 +16,13 @@ image_angle += rotate_spd;
 // Move toward the final pos at the calculated spd
 move_towards_point(final_x, final_y, spd);
 
+if (obj_crystal.image_index >= 8) {
+	obj_crystal.image_speed = 0;
+	obj_crystal.image_index = 8;
+	instance_destroy(obj_crystal);
+	instance_create_layer(xstart, ystart, "Instances", obj_crystal);
+}
+
 
 // If outside the room, reset
 if (x < 0 - sprite_xoffset || 
