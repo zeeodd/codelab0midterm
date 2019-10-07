@@ -1,2 +1,6 @@
-# codelab0w5
-sample repo for code lab 0 i guess
+# Color Gunner
+##### _Blast crystals out of space for some colored mayhem!_
+
+### CONTROLS
+*Arrow Keys* - Move the gunner ship about the wormhole
+*Space Bar* - Fire a missile blast
