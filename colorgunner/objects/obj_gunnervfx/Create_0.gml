@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Set it to follow
 
 x = obj_gunner.x
 y = obj_gunner.y

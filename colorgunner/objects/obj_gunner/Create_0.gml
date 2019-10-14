@@ -1,5 +1,9 @@
 /// @description Initialize gunner vars
 
+// Init pos
+x = room_width/2;
+y = room_height;
+
 // Rotation vars
 x2 = x
 y2 = y

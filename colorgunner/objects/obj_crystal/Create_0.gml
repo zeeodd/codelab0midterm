@@ -12,6 +12,18 @@ randomize();
 // Pick a random angle
 image_angle = random_range(0, 360);
 
+// Colors
+color_blue = make_color_rgb(77,238,234);
+color_green = make_color_rgb(116,238,21);
+color_red = make_color_rgb(255,0,0);
+
+// Pick a random color
+image_blend = choose(
+	color_blue,
+	color_green,
+	color_red
+);
+
 // Center the crystal upon instantiation
 x = room_width/2;
 y = room_width/2;
@@ -24,7 +36,7 @@ final_x = x + x_comp;
 final_y = y + y_comp;
 
 // The rate with which to move to final pos outside of the room
-spd = move_over_time(x, y, final_x, final_y, 5);
+spd = move_over_time(x, y, final_x, final_y, 3.5);
 
 // The rate at which to spin the crystal for a cool effect
 rotate_spd = 4;
